@@ -22,7 +22,7 @@ export class Product {
         this.discountPercentage = discountPercentage;
     }
     displayDetails(): string {
-        return `Product name: `;
+        return `Product name: ${this.title}`;
     }
     getPriceWithDiscount(): string {
         const discounted = this.price * (1 - this.discountPercentage / 100);
