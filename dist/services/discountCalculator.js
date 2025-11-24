@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.calculateDiscount = calculateDiscount;
 function calculateDiscount(product) {
-    return product.getPriceWithDiscount();
+    const discountAmount = product.price * (product.discountPercentage / 100);
+    return `Discount Amount: ${discountAmount.toFixed(2)}`;
 }
 //# sourceMappingURL=discountCalculator.js.map
