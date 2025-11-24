@@ -1,7 +1,4 @@
 import { handleError, CustomError } from "./errorHandler";
-// fetch("https://dummyjson.com/products")
-//     .then((res) => res.json())
-//     .then(console.log);
 
 export interface ProductData {
     id: number;

@@ -16,8 +16,8 @@ async function main() {
                     p.title,
                     p.description,
                     p.category,
-                    p.price,git
-                    p.discountPercentage
+                    p.price,
+                    p.discountPercentage,
                 )
         );
 

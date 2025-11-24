@@ -11,7 +11,7 @@ class Product {
         this.discountPercentage = discountPercentage;
     }
     displayDetails() {
-        return `Product name: ${this.title}`;
+        return `Product: ${this.title} | Category: ${this.category} | Price: $${this.price.toFixed(2)}`;
     }
     getPriceWithDiscount() {
         const discounted = this.price * (1 - this.discountPercentage / 100);
