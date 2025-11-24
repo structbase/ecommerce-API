@@ -85,10 +85,18 @@ node dist/main.js
 ## Example Output
 
 ```
--_-_-_-_-Product: 0-_-_-_-_-
+-_-_-_-_-Product: 1-_-_-_-_-
 Product: Essence Mascara Lash Princess | Category: beauty | Price: $9.99
 Discount Amount: 1.05
 Tax Amount: 0.47
+-_-_-_-_-Product: 2-_-_-_-_-
+Product: Eyeshadow Palette with Mirror | Category: beauty | Price: $19.99
+Discount Amount: 3.64
+Tax Amount: 0.95
+-_-_-_-_-Product: 3-_-_-_-_-
+Product: Powder Canister | Category: beauty | Price: $14.99
+Discount Amount: 1.48
+Tax Amount: 0.71
 ```
 
 ---

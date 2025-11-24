@@ -4,7 +4,7 @@ const Product_1 = require("./models/Product");
 const apiServices_1 = require("./services/apiServices");
 const discountCalculator_1 = require("./services/discountCalculator");
 const taxCalculator_1 = require("./utils/taxCalculator");
-let productCount = 0;
+let productCount = 1;
 async function main() {
     try {
         const data = await (0, apiServices_1.fetchData)();
