@@ -3,7 +3,7 @@ import { fetchData } from "./services/apiServices";
 import { calculateDiscount } from "./services/discountCalculator";
 import { calculateTax } from "./utils/taxCalculator";
 
-let productCount: number = 0
+let productCount: number = 1
 
 async function main() {
     try {
